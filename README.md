@@ -8,10 +8,10 @@
 
 ## Features
 
-- **Remote 3D Printer Management**: Control and monitor your 3D printer using the CYD device.
-- **Touchscreen Interface**: Intuitive and easy-to-use interface for managing print jobs, adjusting settings, and viewing status.
-- **Real-Time Monitoring**: Keep track of print progress, temperatures, and other critical parameters.
-- **Open Source**: Built on open-source technologies, making it easy to customize and extend.
+- **Remote 3D Printer Management**: Control and monitor your 3D printer using the CYD.
+- **Touchscreen Interface**: Easy to use and modern looking interface.
+- **Real-Time Monitoring**: Keep track of print progress, temperatures and other parameters.
+- **Open Source**: This project is open source, if you have any ideas, scroll down to check contributing.
 
 ## Getting Started
 
@@ -20,9 +20,9 @@
 Before you begin, ensure you have met the following requirements:
 
 - An ESP32 development board
-- The Cheap Yellow Display (CYD) touchscreen
+- The [Cheap Yellow Display](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display) (CYD) touchscreen
 - A 3D printer with OctoPrint installed and configured
-- A computer with the Arduino IDE or PlatformIO installed
+- A computer with PlatformIO installed
 
 ### Installation
 
@@ -33,18 +33,15 @@ Before you begin, ensure you have met the following requirements:
    ```cd OctoTouch```
 
 2. **Install Required Libraries**:
-   Make sure you have the necessary libraries installed in your Arduino IDE or PlatformIO.
+   Make sure you have the necessary libraries installed in PlatformIO.
 
 3. **Configure the Project**:
    - Open the project in your development environment.
    - Configure the Wi-Fi settings and OctoPrint API key in the source code.
 
 4. **Upload the Code**:
-   - Connect your ESP32 to your computer.
-   - Compile and upload the code to the ESP32.
-
-5. **Connect the CYD**:
-   - Connect the CYD touchscreen to the ESP32 following the wiring diagram provided in the documentation.
+   - Connect the CYD to your computer.
+   - Flash the device using PlatformIO, if you have any issues, feel free to open an issue.
 
 ## Usage
 
@@ -65,14 +62,11 @@ Contributions are welcome! Please follow these steps:
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+I check pr's quite frequently!
 ## Acknowledgements
 
-- Thanks to the developers of OctoPrint for their amazing software.
-- Special thanks to the open-source community for their contributions and support.
+- Thanks to the developers of OctoPrint for, well OctoPrint itself.
+- Special thanks to [chunkysteveo for his OctoPrintAPI repository](https://github.com/chunkysteveo/OctoPrintAPI)!
 
 ## Contact
 
