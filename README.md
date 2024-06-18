@@ -7,6 +7,20 @@
 
 **OctoTouch** is a project designed to provide an affordable and user-friendly interface for managing your 3D printer using an ESP32 touchscreen device, commonly known as The Cheap Yellow Display (CYD). This project integrates with OctoPrint to offer remote control and monitoring of your 3D printing processes.
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Powering the Device](#powering-the-device)
+- [Screens](#screens)
+  - [Home Screen](#home-screen)
+  - [Settings Screen](#settings-screen)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 ## Features
 
 - **Remote 3D Printer Management**: Control and monitor your 3D printer using the CYD.
