@@ -88,7 +88,9 @@ This may be used as an alternative for powering the CYD, you can somehow integra
 **Top bar**: Displays WiFi status and temperatures. (VISIBLE ON ALL SCREENS)
 ### Home screen
 -**Home (Tab 1)**: Overview of the printing process, data like temperatures, estimated time, time elapsed, gcode file name, and other general information.
+
 -**Temperatures (Tab 2)**: On this tab, you will find buttons for temperature controls, as well as the target temperature and current real temperature.
+
 -**Control tab (Tab 3)**: Here, you can home the toolhead, control the positions by 1mm or 10mm increments using 4 buttons *(Planned support for a touchable region for the control)*. If printer is idle, show a list of gcode files that OctoPrint recognizes, then click them to start printing.
 
 ### Settings screen
